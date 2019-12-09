@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>openconnect-gui</id>
-    <version>1.5.3</version>
+    <version>1.5.3.20191209</version>
     <title>OpenConnect-GUI VPN client</title>
     <authors>Nikos Mavrogiannopoulos, Ľubomír Carik</authors>
     <owners>Fabio A. Correa Duran</owners>
