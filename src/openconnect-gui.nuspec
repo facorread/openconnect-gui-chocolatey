@@ -33,7 +33,7 @@ Note: attached 'High Sierra' macOS package at this time is really experimental b
     <tags>vpn community tunnel ssl admin cisco juniper</tags>
     <packageSourceUrl>https://github.com/facorread/openconnect-gui-chocolatey</packageSourceUrl>
     <dependencies>
-      <dependency id="autohotkey" version="1.1.30.03" />
+      <dependency id="autohotkey" version="1.1.32.00" />
       <dependency id="tapwindows" version="9.21.2" />
     </dependencies>
   </metadata>
