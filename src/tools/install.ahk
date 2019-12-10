@@ -6,6 +6,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 WinWait, OpenConnect-GUI Setup, , 300
 WinActivate, OpenConnect-GUI Setup
 Sleep 1000
-Send !N!A{Down}!N!N!N{Tab}c{Space}T{Space}!I
+Send !N!A{Down}!N!N!NF{Tab}T{Space}!I
 WinWait, OpenConnect-GUI Setup, Finish, 600
 Send !R!F
