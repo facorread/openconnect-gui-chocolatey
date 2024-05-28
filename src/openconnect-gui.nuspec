@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>openconnect-gui</id>
-    <version>1.5.3.20210105</version>
+    <version>1.6.1</version>
     <title>OpenConnect-GUI VPN client</title>
     <authors>Nikos Mavrogiannopoulos, Ľubomír Carik</authors>
     <owners>Fabio A. Correa Duran</owners>
@@ -13,28 +13,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>OpenConnect is a VPN client, that utilizes TLS and DTLS for secure session establishment, and is compatible with the CISCO AnyConnect SSL VPN protocol. OpenConnect-gui is the graphical client of OpenConnect for the Microsoft Windows system (or any other system Qt and OpenConnect run at).</description>
     <summary>Graphical OpenConnect client for Cisco AnyConnect, Juniper (AKA Pulse Connect Secure), and Palo Alto Networks GlobalProtect SSL VPN protocols</summary>
-    <releaseNotes>Couple of fixes and few small improvements:
-
-- Don't lose password in batch mode and keys from storage
-- No disconnection triggered before quit
-- Don't use system wide defined proxy when disabled in profile
-- Unable to use socks5 proxy built by ssh tunneling
-- Invalid routes
-- macOS tray icons improved for dark/light dock panel
-
-Note: when you get "decoding of OTP token failed" message on edit profile action, please try to remove the profile and create it again.
-
-Please refer to Changelog for further details.
-
-OS requirements: Win7+
-
-Note: attached 'High Sierra' macOS package at this time is really experimental build for Homebrew just for testing...</releaseNotes>
+    <releaseNotes>https://gitlab.com/openconnect/openconnect-gui/-/releases/v1.6.1</releaseNotes>
     <copyright>Copyright (C) 2016-2019 OpenConnect-GUI Team, Copyright (C) 2014-2015 Red Hat Inc.</copyright>
     <tags>vpn community tunnel ssl admin cisco juniper</tags>
     <packageSourceUrl>https://github.com/facorread/openconnect-gui-chocolatey</packageSourceUrl>
     <dependencies>
-      <dependency id="autohotkey" version="1.1.32.00" />
-      <dependency id="tapwindows" version="9.24.2" />
+      <dependency id="autohotkey.portable" version="2.0.10" />
     </dependencies>
   </metadata>
 </package>

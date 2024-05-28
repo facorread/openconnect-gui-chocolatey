@@ -1,11 +1,14 @@
-#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
+#SingleInstance Force
+; #ErrorStdOut             ; Best to keep this one disabled; it silences some errors.
+; #Warn                    ; Enable warnings to assist with detecting common errors.
+SendMode "Input"           ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir A_ScriptDir  ; Ensures a consistent starting directory.
 
-WinWait, OpenConnect-GUI Setup, , 300
-WinActivate, OpenConnect-GUI Setup
-Sleep 1000
-Send !N!A{Down}!N!N!NF{Tab}T{Space}!I
-WinWait, OpenConnect-GUI Setup, Finish, 600
-Send !R!F
+setup_window_title := "OpenConnect-GUI Setup"
+
+WinWait(setup_window_title, , 300)
+WinActivate(setup_window_title)
+Sleep(1000)
+Send("!N!A{Down}!N!N!NF{Tab}T{Space}!I")
+WinWait(setup_window_title, "Finish", 600)
+Send("!R!F")
