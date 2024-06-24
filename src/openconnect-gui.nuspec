@@ -17,8 +17,5 @@
     <copyright>Copyright (C) 2016-2019 OpenConnect-GUI Team, Copyright (C) 2014-2015 Red Hat Inc.</copyright>
     <tags>vpn community tunnel ssl admin cisco juniper</tags>
     <packageSourceUrl>https://github.com/facorread/openconnect-gui-chocolatey</packageSourceUrl>
-    <dependencies>
-      <dependency id="autohotkey.portable" version="2.0.10" />
-    </dependencies>
   </metadata>
 </package>
