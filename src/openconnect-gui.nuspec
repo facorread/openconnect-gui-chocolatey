@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>openconnect-gui</id>
-    <version>1.6.1</version>
+    <version>1.6.2</version>
     <title>OpenConnect-GUI VPN client</title>
     <authors>Nikos Mavrogiannopoulos, Ľubomír Carik</authors>
     <owners>Fabio A. Correa Duran</owners>
@@ -13,7 +13,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>OpenConnect is a VPN client, that utilizes TLS and DTLS for secure session establishment, and is compatible with the CISCO AnyConnect SSL VPN protocol. OpenConnect-gui is the graphical client of OpenConnect for the Microsoft Windows system (or any other system Qt and OpenConnect run at).</description>
     <summary>Graphical OpenConnect client for Cisco AnyConnect, Juniper (AKA Pulse Connect Secure), and Palo Alto Networks GlobalProtect SSL VPN protocols</summary>
-    <releaseNotes>https://gitlab.com/openconnect/openconnect-gui/-/releases/v1.6.1</releaseNotes>
+    <releaseNotes>https://gitlab.com/openconnect/openconnect-gui/-/releases/v1.6.2</releaseNotes>
     <copyright>Copyright (C) 2016-2019 OpenConnect-GUI Team, Copyright (C) 2014-2015 Red Hat Inc.</copyright>
     <tags>vpn community tunnel ssl admin cisco juniper</tags>
     <packageSourceUrl>https://github.com/facorread/openconnect-gui-chocolatey</packageSourceUrl>
